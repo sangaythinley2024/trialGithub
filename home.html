@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="container" role="banner">
+      <nav
+        class="card"
+        aria-label="Main navigation"
+        style="
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        "
+      >
+        <div style="font-weight: 600">MySite</div>
+        <div style="display: flex; gap: 12px; align-items: center">
+          <a href="login.html">Sign in</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container" style="max-width: 900px; margin-top: 22px">
+      <section class="card" aria-labelledby="home-heading">
+        <h1 id="home-heading">Welcome to MySite</h1>
+        <p style="color: var(--muted); margin-top: 8px">
+          A simple starter home page for your front-end project. Click below to
+          sign in and continue.
+        </p>
+        <p style="margin-top: 16px">
+          <a class="btn primary" href="login.html">Get started — Sign in</a>
+        </p>
+      </section>
+
+      <section
+        style="
+          margin-top: 18px;
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+          gap: 12px;
+        "
+      >
+        <div class="card">
+          <h2 style="font-size: 1rem; margin: 0 0 8px">Feature A</h2>
+          <p style="color: var(--muted); margin: 0">
+            Short description of a key feature or value prop.
+          </p>
+        </div>
+        <div class="card">
+          <h2 style="font-size: 1rem; margin: 0 0 8px">Feature B</h2>
+          <p style="color: var(--muted); margin: 0">
+            Another short description highlighting benefits.
+          </p>
+        </div>
+        <div class="card">
+          <h2 style="font-size: 1rem; margin: 0 0 8px">Feature C</h2>
+          <p style="color: var(--muted); margin: 0">
+            A third quick point to show simple layout blocks.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer
+      style="
+        width: 100%;
+        margin-top: 28px;
+        padding: 12px 24px;
+        text-align: center;
+        color: var(--muted);
+      "
+    >
+      © 2026 MySite
+    </footer>
+  </body>
+</html>
