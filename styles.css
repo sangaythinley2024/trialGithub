@@ -1,8 +1,8 @@
 :root {
   --bg: #f5f7fb;
-  --card: #5e0606;
-  --accent: #2b6cb0;
-  --muted: #6b7280;
+  --card: #065e10;
+  --accent: #2bb076;
+  --muted: #10b436;
 }
 * {
   box-sizing: border-box;
